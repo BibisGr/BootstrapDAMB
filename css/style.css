@@ -1,0 +1,20 @@
+:root{
+    --background: #222;
+    --text-color: #eee;
+    --redYoutube: #FF0000;
+    --redYoutubeTransparent: rgba(255,0,0,0.7);
+    --shadowGrayTrasnparent: rgba(0,0,0,0.5);
+    --lightGray: #555;  
+    --heading-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --body-font: 'Arial', sans-serif;
+    --marginBase: 16px;
+}
+body{
+    
+}
+.celda{
+    background-color: var(--lightGray);
+}
+.orange{
+    background-color: orange;
+}
