@@ -16,33 +16,34 @@
         integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>AnimeHub - Tienda de Merchandising de Anime</title>
 </head>
 
 <body class="container">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
-        <div class="container-fluid"> <a class="navbar-brand" href="#">Mi Logo</a> <button class="navbar-toggler"
+        <div class="container-fluid"> <a class="navbar-brand" href="#">🎌 AnimeHub</a> <button class="navbar-toggler"
                 type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
                 aria-controls="offcanvasNavbar2" aria-label="Toggle navigation"> <span
                     class="navbar-toggler-icon"></span> </button>
             <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
                 aria-labelledby="offcanvasNavbar2Label">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5> <button type="button"
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">AnimeHub</h5> <button type="button"
                         class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Inicio</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#">Tienda</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="/pages/tienda.html">Tienda</a> </li>
                         <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Ropa
+                                Categorías
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Mujer</a></li>
-                                <li><a class="dropdown-item" href="#">Hombre</a></li>
+                                <li><a class="dropdown-item" href="#">Figuras Coleccionables</a></li>
+                                <li><a class="dropdown-item" href="#">Ropa y Accesorios</a></li>
+                                <li><a class="dropdown-item" href="#">Manga y Mangas</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -51,8 +52,8 @@
                         </li>
                     </ul>
                     <form class="d-flex mt-3 mt-lg-0" role="search"> <input class="form-control me-2" type="search"
-                            placeholder="Search" aria-label="Search"> <button class="btn btn-outline-success"
-                            type="submit">Search</button> </form>
+                            placeholder="Buscar anime..." aria-label="Search"> <button class="btn btn-outline-success"
+                            type="submit">Buscar</button> </form>
                 </div>
             </div>
         </div>
@@ -60,43 +61,37 @@
     <section class="py-5 text-center container">
         <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-light">Bienvenido a nuestra Web</h1>
-                <p class="lead text-body-secondary">Something short and leading about the collection below—its contents,
-                    the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it
-                    entirely.</p>
-                <p> <a href="#" class="btn btn-outline-primary my-2">Tienda</a> <a href="#"
-                        class="btn btn-danger my-2">Suscribe</a> </p>
+                <h1 class="fw-light">Bienvenido a AnimeHub 🎌</h1>
+                <p class="lead text-body-secondary">Tu tienda de confianza para el mejor merchandising de anime. Encuentra figuras coleccionables, ropa oficial, manga y mucho más de tus animes favoritos. Desde clásicos hasta los estrenos más recientes.</p>
+                <p> <a href="#" class="btn btn-outline-primary my-2">Ir a la Tienda</a> <a href="#"
+                        class="btn btn-danger my-2">Newsletter 📧</a> </p>
             </div>
         </div>
     </section>
     <div class="container col-xl-10 col-xxl-8 px-4 py-5">
         <div class="row align-items-center g-lg-5 py-5">
             <div class="col-lg-7 text-center text-lg-start">
-                <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Vertically centered hero sign-up form</h1>
-                <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each
-                    required form group has a validation state that can be triggered by attempting to submit the form
-                    without completing it.</p>
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Crea tu Cuenta 👤</h1>
+                <p class="col-lg-10 fs-4">Regístrate en AnimeHub y accede a ofertas exclusivas, seguimiento de pedidos, wishlist personalizado y comunidad de otakus. Completa el formulario para comenzar tu experiencia de compra.</p>
             </div>
             <div class="col-md-10 mx-auto col-lg-5">
                 <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
                     <div class="form-floating mb-3"> <input type="email" class="form-control" id="floatingInput"
-                            placeholder="name@example.com"> <label for="floatingInput">Email address</label> </div>
+                            placeholder="name@example.com"> <label for="floatingInput">Correo Electrónico</label> </div>
                     <div class="form-floating mb-3"> <input type="password" class="form-control" id="floatingPassword"
-                            placeholder="Password"> <label for="floatingPassword">Password</label> </div>
-                    <div class=" border border-2 mb-3"> <label> <input type="checkbox" value="remember-me"> Remember me
-                        </label> </div> <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
-                    <hr class="my-4"> <small class="text-body-secondary">By clicking Sign up, you agree to the terms of
-                        use.</small>
+                            placeholder="Password"> <label for="floatingPassword">Contraseña</label> </div>
+                    <div class=" border border-2 mb-3"> <label> <input type="checkbox" value="remember-me"> Recuérdame en este dispositivo
+                        </label> </div> <button class="w-100 btn btn-lg btn-primary" type="submit">Crear Cuenta</button>
+                    <hr class="my-4"> <small class="text-body-secondary">Al registrarte, aceptas nuestros términos de servicio y política de privacidad.</small>
                 </form>
             </div>
         </div>
     </div>
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span
-                    class="text-body-secondary">It’ll blow your mind.</span></h2>
-            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose
-                here.</p>
+            <h2 class="featurette-heading fw-normal lh-1">Figuras Coleccionables 🎀 <span
+                    class="text-body-secondary">La joya de toda colección otaku.</span></h2>
+            <p class="lead">Explora nuestra amplia selección de figuras PVC y Nendoroids de tus personajes favoritos. Desde One Piece hasta Demon Slayer, tenemos las figuras de mayor calidad con detalles increíbles. Cada figura es cuidadosamente seleccionada para garantizar autenticidad y excelente acabado.</p>
         </div>
         <div class="col-md-5"> <svg aria-label="Placeholder: 500x500"
                 class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500"
@@ -107,18 +102,60 @@
             </svg> </div>
     </div>
     <hr class="featurette-divider">
-    <div class="container">
-        <footer class="py-3 my-4">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-            </ul>
-            <p class="text-center text-body-secondary">© 2025 Company, Inc</p>
-        </footer>
+    <div class="row featurette">
+        <div class="col-md-5"> <svg aria-label="Placeholder: 500x500"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500"
+                preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+                    fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+            </svg> </div>
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Ropa y Accesorios 👕 <span
+                    class="text-body-secondary">Vístete como tu personaje favorito.</span></h2>
+            <p class="lead">Descubre nuestra colección de camisetas, hoodies, gorras y bolsas con los diseños más icónicos del anime. Todas nuestras prendas son de alta calidad y comodidad, perfectas para los verdaderos fans que desean expresar su pasión.</p>
+        </div>
     </div>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Manga y Light Novels 📚 <span
+                    class="text-body-secondary">Sumérgete en historias épicas.</span></h2>
+            <p class="lead">Tenemos la más amplia selección de manga y light novels en español. Desde series populares hasta joyas ocultas, cada título está disponible en nuestro catálogo. Envíos rápidos y precios competitivos para los lectores más exigentes.</p>
+        </div>
+        <div class="col-md-5"> <svg aria-label="Placeholder: 500x500"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500"
+                preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+                    fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+            </svg> </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-md-5"> <svg aria-label="Placeholder: 500x500"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500"
+                preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+                    fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+            </svg> </div>
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Ediciones Limitadas 💎 <span
+                    class="text-body-secondary">Para coleccionistas exclusivos.</span></h2>
+            <p class="lead">Accede a nuestras colecciones especiales de ediciones limitadas y productos exclusivos. Figuras raras, sets de colección y merchandise del que nadie más tiene. Cantidad limitada, así que asegúrate de no perder tus favoritos.</p>
+        </div>
+    </div>
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Tienda</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Ofertas</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Preguntas</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Acerca de</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2025 AnimeHub - Tu tienda de anime favorita</p>
+    </footer>
     <!-- <div class="row">
         <div class="col-3 border border-2">1</div>
         <div class="col-5 border border-2 d-flex jutify-content-center align-items-center">

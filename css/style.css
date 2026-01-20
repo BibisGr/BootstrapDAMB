@@ -8,13 +8,74 @@
     --heading-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --body-font: 'Arial', sans-serif;
     --marginBase: 16px;
+    --anime-primary: #FF6B6B;
+    --anime-secondary: #4ECDC4;
+    --anime-accent: #FFE66D;
 }
+
 body{
-    
+    font-family: var(--body-font);
+    line-height: 1.6;
 }
-.celda{
-    background-color: var(--lightGray);
+
+/* Estilos para la barra de navegación */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
 }
-.orange{
-    background-color: orange;
+
+/* Estilos para las secciones featurette */
+.featurette-heading {
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.featurette-divider {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 0;
+    border-top: 1px solid var(--anime-secondary);
+}
+
+/* Estilos para los botones temáticos */
+.btn-outline-primary:hover {
+    background-color: var(--anime-primary);
+    border-color: var(--anime-primary);
+}
+
+.btn-danger {
+    background-color: var(--anime-primary);
+    border-color: var(--anime-primary);
+}
+
+.btn-danger:hover {
+    background-color: #FF5252;
+    border-color: #FF5252;
+}
+
+/* Estilos para el formulario */
+.form-floating > .form-control {
+    border-color: var(--anime-secondary);
+}
+
+.form-floating > .form-control:focus {
+    border-color: var(--anime-primary);
+    box-shadow: 0 0 0 0.25rem rgba(255, 107, 107, 0.25);
+}
+
+/* Estilos para la sección hero */
+.py-lg-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+/* Estilos para el footer */
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--anime-secondary) !important;
 }
